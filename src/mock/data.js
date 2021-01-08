@@ -31,9 +31,27 @@ export const projectsData = [
     img: 'laces.jpg',
     title: 'laces.',
     info: 'Social Site for Bootcamp Grads',
-    info2: 'Tech Used: React, Express, Node, MongoDB',
+    info2: 'Tech Used: React, Redux, Express, Node, MongoDB',
     url: 'https://damp-badlands-65898.herokuapp.com/',
     repo: 'https://github.com/mbrown98/laces', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'charlotte.',
+    info: 'Fully Featured/In Use Shopping Site',
+    info2: 'Tech Used: React, Redux, Node, Express, MongoDB, PayPal/Credit Card integration',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'not.',
+    info: 'Sustainable Meat Alternative Meals',
+    info2: 'Tech Used: React, GraphQL, Apollo, Express, MongoDB',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -62,16 +80,6 @@ export const projectsData = [
     info2: 'Tech Used: React (ES6, Hooks), Spotify Developer API, Bootstrap',
     url: 'https://www.thevariantmusic.com/',
     repo: 'https://github.com/mbrown98/variant', // if no repo, the button will not show up
-  },
-
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'not.',
-    info: 'Sustainable Meat Alternative Meals',
-    info2: 'Tech Used: React, GraphQL, Apollo, Express, MongoDB',
-    url: 'https://www.slicebudget.com/',
-    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
 ];
 
