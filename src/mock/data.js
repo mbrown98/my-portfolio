@@ -21,11 +21,30 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/matthewbrown98/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'laces.jpg',
+    title: 'laces.',
+    info: 'Social Site for Bootcamp Grads',
+    info2: 'Tech Used: React, Express, Node, MongoDB',
+    url: 'https://damp-badlands-65898.herokuapp.com/',
+    repo: 'https://github.com/mbrown98/laces', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'slice.jpg',
+    title: 'slice.',
+    info: 'Voice Powered Expense Tracker',
+    info2:
+      'Tech Used: React (ES6, Hooks, Context API), Speechly Voice Recognition API, Material UI',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'dispatch.jpg',
@@ -44,25 +63,7 @@ export const projectsData = [
     url: 'https://www.thevariantmusic.com/',
     repo: 'https://github.com/mbrown98/variant', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'slice.jpg',
-    title: 'slice.',
-    info: 'Voice Powered Expense Tracker',
-    info2:
-      'Tech Used: React (ES6, Hooks, Context API), Speechly Voice Recognition API, Material UI',
-    url: 'https://www.slicebudget.com/',
-    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'elif.',
-    info: 'Social Media Site',
-    info2: 'Tech Used: React, Express, Node, MongoDB',
-    url: 'https://www.slicebudget.com/',
-    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
-  },
+
   {
     id: nanoid(),
     img: 'project.jpg',
