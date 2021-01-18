@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'char.jpg',
+    title: 'char.',
+    info: "Fully Featured Shopping Site for my sister's small business",
+    info2: 'Tech Used: React (ES6, Hooks), Redux, Express, MongoDB, Paypal',
+    url: 'https://www.char.shop',
+    repo: 'https://github.com/mbrown98/charShop', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'laces.jpg',
     title: 'laces.',
     info: 'Social Site for Bootcamp Grads',
@@ -37,19 +46,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'charlotte.',
-    info: 'Fully Featured/In Use Shopping Site',
-    info2: 'Tech Used: React, Redux, Node, Express, MongoDB, PayPal/Credit Card integration',
-    url: 'https://www.slicebudget.com/',
-    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'not.',
-    info: 'Sustainable Meat Alternative Meals',
-    info2: 'Tech Used: React, GraphQL, Apollo, Express, MongoDB',
+    img: 'snapTest.jpg',
+    title: 'mattChat.',
+    info: 'Snapchat Clone',
+    info2: 'Tech Used: React (ES6, Hooks), Redux, Camera, Firebase ',
     url: 'https://www.slicebudget.com/',
     repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
@@ -60,6 +60,15 @@ export const projectsData = [
     info: 'Voice Powered Expense Tracker',
     info2:
       'Tech Used: React (ES6, Hooks, Context API), Speechly Voice Recognition API, Material UI',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'huluTest.jpg',
+    title: 'mulu.',
+    info: 'Hulu Clone',
+    info2: 'Tech Used: React (ES6, Hooks, Context API), Firebase',
     url: 'https://www.slicebudget.com/',
     repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
