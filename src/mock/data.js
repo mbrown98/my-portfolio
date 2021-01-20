@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'char.jpg',
+    img: 'https://www.youtube.com/embed/ZVznzY7EjuY',
     title: 'char.',
     info: "Fully Featured Shopping Site for my sister's small business",
     info2: 'Tech Used: React (ES6, Hooks), Redux, Express, MongoDB, Paypal',
@@ -37,9 +37,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'laces.jpg',
+    img: 'https://www.youtube.com/embed/3nxT96zp7q4',
     title: 'laces.',
-    info: 'Social Site for Bootcamp Grads',
+    info: 'Social Site for Bootcamp Grads/Developers',
     info2: 'Tech Used: React, Redux, Express, Node, MongoDB',
     url: 'https://damp-badlands-65898.herokuapp.com/',
     repo: 'https://github.com/mbrown98/laces', // if no repo, the button will not show up
@@ -55,7 +55,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'slice.jpg',
+    img: 'https://www.youtube.com/embed/1vDlynD4UIc',
     title: 'slice.',
     info: 'Voice Powered Expense Tracker',
     info2:
@@ -63,27 +63,10 @@ export const projectsData = [
     url: 'https://www.slicebudget.com/',
     repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
-    img: 'huluTest.jpg',
-    title: 'mulu.',
-    info: 'Hulu Clone',
-    info2: 'Tech Used: React (ES6, Hooks, Context API), Firebase',
-    url: 'https://www.slicebudget.com/',
-    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'dispatch.jpg',
-    title: 'dispatch.',
-    info: 'Real-Time Chat Application',
-    info2: 'Tech Used: React (ES6, Hooks), Express, Node, socket.io',
-    url: 'https://fervent-jang-00d3ca.netlify.app/',
-    repo: 'https://github.com/mbrown98/dispatch', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'variant.jpg',
+    img: 'https://www.youtube.com/embed/zen8hkTHuvQ',
     title: 'variant.',
     info: 'Custom Playlist Generator',
     info2: 'Tech Used: React (ES6, Hooks), Spotify Developer API, Bootstrap',

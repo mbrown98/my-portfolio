@@ -23,12 +23,18 @@ const ProjectImg = ({ filename, alt }) => (
       }
     `}
     render={(data) => {
-      const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
+      // console.log("Images", data.images, filename)
+      // const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
-      if (!image) return null;
+      // if (!image) return null;
 
-      const imageFluid = image.node.childImageSharp.fluid;
-      return <Img alt={alt} fluid={imageFluid} />;
+      // const imageFluid = image.node.childImageSharp.fluid;
+      // return <Img alt={alt} fluid={imageFluid} />;
+      return (  
+        <div className="video">
+             <iframe width="560" height="315" src={filename} frameborder="0" title="Project Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+        </div>
+    )
     }}
   />
 );
