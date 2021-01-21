@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'https://www.youtube.com/embed/ZVznzY7EjuY',
+    img: 'char.jpg',
     title: 'char.',
     info: "Fully Featured Shopping Site for my sister's small business",
     info2: 'Tech Used: React (ES6, Hooks), Redux, Express, MongoDB, Paypal',
@@ -50,13 +50,12 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'snapTest.jpg',
-    title: 'mattChat.',
-    info: 'Snapchat Clone',
-    info2: 'Tech Used: React (ES6, Hooks), Redux, Camera, Firebase ',
+    title: 'mattsApp. (TBD)',
+    info: 'whatsApp Clone',
+    info2: 'TBD',
     url: 'https://www.slicebudget.com/',
     repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
-
   {
     id: nanoid(),
     img: 'https://www.youtube.com/embed/zen8hkTHuvQ',
@@ -75,6 +74,25 @@ export const projectsData = [
     url: 'http://ec2-18-223-0-140.us-east-2.compute.amazonaws.com/products',
     repo: 'https://github.com/Acadia-Team/Project-Greenfield', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'snapTest.jpg',
+    title: 'mfilms.',
+    info: 'Netflix Clone',
+    info2: 'TBD',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'snapTest.jpg',
+    title: 'mattChat.',
+    info: 'Snapchat Clone',
+    info2: 'Tech Used: React (ES6, Hooks), Redux, Camera, Firebase ',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
+  },
+
   {
     id: nanoid(),
     img: 'https://www.youtube.com/embed/1vDlynD4UIc',
