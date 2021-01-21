@@ -53,16 +53,6 @@ export const projectsData = [
     url: 'https://www.slicebudget.com/',
     repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'https://www.youtube.com/embed/1vDlynD4UIc',
-    title: 'slice.',
-    info: 'Voice Powered Expense Tracker',
-    info2:
-      'Tech Used: React (ES6, Hooks, Context API), Speechly Voice Recognition API, Material UI',
-    url: 'https://www.slicebudget.com/',
-    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
-  },
 
   {
     id: nanoid(),
@@ -72,6 +62,25 @@ export const projectsData = [
     info2: 'Tech Used: React (ES6, Hooks), Spotify Developer API, Bootstrap',
     url: 'https://www.thevariantmusic.com/',
     repo: 'https://github.com/mbrown98/variant', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'https://www.youtube.com/embed/UAqiS3FwwyE',
+    title: 'forever404.',
+    info: 'Front End E-Commerce Site for mock Back-End API',
+    info2: 'Completed at Hack Reactor as part of a four engineer team',
+    url: 'http://ec2-18-223-0-140.us-east-2.compute.amazonaws.com/products',
+    repo: 'https://github.com/Acadia-Team/Project-Greenfield', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'https://www.youtube.com/embed/1vDlynD4UIc',
+    title: 'slice.',
+    info: 'Voice Powered Expense Tracker',
+    info2:
+      'Tech Used: React (ES6, Hooks, Context API), Speechly Voice Recognition API, Material UI',
+    url: 'https://www.slicebudget.com/',
+    repo: 'https://github.com/mbrown98/sliceTracker', // if no repo, the button will not show up
   },
 ];
 
