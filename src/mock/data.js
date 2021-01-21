@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'mattPic.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Hello, my name is Matthew. I have been coding for over 3 years, working independently on small projects, and in teams on expansive full stack applications.',
+  paragraphTwo:
+    'I attended the University of Maryland, where I pursued my passion of politics, and doubled majored in Economics and Political Science. Living with computer science students I became fascinated by the power and impact of code. After college I attended Hack Reactor, an advanced Software Engineering Immersive Program in New York City. While there I advanced my knowledge of data structures, design patterns, and of well-known frameworks.',
+  paragraphThree:
+    'After graduation I accepted a position at Anchor Technologies, where with a team of developers we built the myCYPR platform. For my next step, I am seeking an opportunity where I can continue to grow and contribute as a developer. Have a great day, and I hope you enjoy some of the cool projects I have built.',
   resume: 'https://www.linkedin.com/in/matthewbrown98/', // if no resume, the button will not show up
 };
 
@@ -94,16 +97,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -113,6 +106,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/mbrown98',
+    },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UC-8bR4aeft2cBax7Kpv-2jw',
     },
   ],
 };
